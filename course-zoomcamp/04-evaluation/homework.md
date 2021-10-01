@@ -21,7 +21,7 @@ ROC AUC could also be used to evaluate feature importance of numerical variables
 
 Let's do that
 
-* For each numerical variable, use it as score and compute AUC with the default variable
+* For each numerical variable, use it as score and compute AUC with the "default" variable
 * Use the training dataset for that
 
 
@@ -32,7 +32,7 @@ If your AUC is < 0.5, invert this variable by putting "-" in front
 AUC can go below 0.5 if the variable is negatively correlated with the target varialble. You can change the direction of the correlation by negating this variable - then negative correlation becomes positive.
 
 
-Which categorical variable (among the following 4) has the highest AUC?
+Which numerical variable (among the following 4) has the highest AUC?
 
 - seniority
 - time
@@ -82,7 +82,7 @@ At which threshold precision and recall curves intersect?
 * 0.8
 
 
-## Quesiton 4
+## Question 4
 
 Precision and recall are conflicting - when one grows, the other goes down. That's why they are often combined into the F1 score - a metrics that takes into account both
 
@@ -116,7 +116,7 @@ KFold(n_splits=5, shuffle=True, random_state=1)
 * Use AUC to evaluate the model on validation
 
 
-How large is standard devidation of the scores across different folds?
+How large is standard devidation of the AUC scores across different folds?
 
 - 0.001
 - 0.014
@@ -129,8 +129,9 @@ How large is standard devidation of the scores across different folds?
 Now let's use 5-Fold cross-validation to find the best parameter C
 
 * Iterate over the following C values: `[0.01, 0.1, 1, 10]`
+* Initialize `KFold` with the same parameters as previously
 * Use these parametes for the model: `LogisticRegression(solver='liblinear', C=C, max_iter=1000)`
-* Compute the mean score as well as the std
+* Compute the mean score as well as the std (round the mean and std to 3 decimal digits)
 
 
 Which C leads to the best mean score?
