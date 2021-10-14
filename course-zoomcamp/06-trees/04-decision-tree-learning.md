@@ -1,8 +1,6 @@
-
 ## 6.4 Decision tree learning algorithm
 
-
-COMING SOON 
+<a href="https://www.youtube.com/watch?v=XODz6LwKY7g"><img src="images/thumbnail-6-04.jpg"></a>
 
 [Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-6-decision-trees-and-ensemble-learning)
 
@@ -28,4 +26,4 @@ Add notes from the video (PRs are welcome)
 * [Machine Learning Zoomcamp course](../)
 * [Session 6: Decision Trees and Ensemble Learning](./)
 * Previous: [Decision trees](03-decision-trees.md)
-* Next: [Decision trees parameter tuning](05-decision-tree-tuning.nd)
+* Next: [Decision trees parameter tuning](05-decision-tree-tuning.md)
