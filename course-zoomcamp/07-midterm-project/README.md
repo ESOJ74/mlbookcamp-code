@@ -43,7 +43,41 @@ For this project, you repository/folder should contain the following:
 * `Dockerfile` for running the service
 
 
-## Evaluation Criteria
+### Submit the results
+
+Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
+
+### Deadline
+
+The deadline for submitting is 3 November 2021 (Wednesday), 12:00 (noon) CET. After that, the form will be closed.
+
+
+## Peer reviewing
+
+To evaluate the projects, we'll use peer reviewing. This is a great opportunity for your to learn from each other. 
+
+* To get points for your project, your need to evaluate 3 projects of your peers
+* You get 3 extra point for each evaluation
+
+To find the projects you need to review, use [this table](https://docs.google.com/spreadsheets/d/e/2PACX-1vRo05lqGFkl7Jtt4o9Dqqk8JEA-U956-sxJVT-klWrKp8nTvboOkyyYVH-Z4sccFdpvfZhd40eGhU2J/pubhtml)
+
+* Hash your email
+* Find your email in the `reviewer_hash` column
+* You'll have three other projects there - that's what you'll need to evaluate
+
+Function for computing the hash of your email:
+
+```python
+from hashlib import sha1
+
+def compute_hash(email):
+    return sha1(email.lower().encode('utf-8')).hexdigest()
+```
+
+
+Tip: you can use https://nbviewer.org/ to render notebooks if GitHub doesn't work
+
+### Evaluation Criteria
 
 The project will be evaluated using these criteria:
 
@@ -59,14 +93,33 @@ The project will be evaluated using these criteria:
 [Detailed criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQo-cOOGMA-ddbp6FgxusNBjS_HOmWaOYtvO7z-wk_TcCnPOBAza9s8Uj_eqfKGadoU0741cCGd95qI/pubhtml)
 
 
-## Submit the results
+### Submitting evaluations
 
-Submit your results here: https://forms.gle/5JLFUwwXaUDssVKt7
+* To submit the evaluations, use this form: https://forms.gle/AMFvMNnfwEeTQxaj8
+* You will need to submit this form three times - one for each evaluated project
+* Deadline: 10 November (Wednesday), 12:00 (noon) CET.  After that, the form will be closed.
 
 
-## Deadline
+## Office Hours 
 
-The deadline for submitting is 2 November 2021 (Tuesday), 12:00 (noon) CET. After that, the form will be closed.
+We discussed the project in detail in three office hours sessions
+
+### Office Hours Week #7 
+
+[Video](https://www.youtube.com/watch?v=wWBm6MHu5u8)
+
+### Office Hours Week #8
+
+[Video](https://www.youtube.com/watch?v=3bo7I9LaN7o)
+
+[Notebook](week8-office-hours.ipynb)
+
+### Office Hours Week #9
+
+[Video](https://www.youtube.com/watch?v=yZ15WyKb5o4)
+
+[Notebook](week9-office-hours.ipynb)
+
 
 ## FAQ
 
@@ -80,17 +133,3 @@ The deadline for submitting is 2 November 2021 (Tuesday), 12:00 (noon) CET. Afte
 
 > Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
 
-
-## Office Hours 
-
-We discussed the project in detail in two office hours sessions
-
-### Office Hours Week #7 
-
-[Video](https://www.youtube.com/watch?v=wWBm6MHu5u8)
-
-### Office Hours Week #8
-
-[Video](https://www.youtube.com/watch?v=3bo7I9LaN7o)
-
-[Notebook](week8-office-hours.ipynb)
