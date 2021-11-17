@@ -1,10 +1,8 @@
-
 ## 8.3 Pre-trained convolutional neural networks
 
 <a href="https://www.youtube.com/watch?v=qGDXEz-cr6M"><img src="images/thumbnail-8-03.jpg"></a>
  
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592318)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
 ## Notes

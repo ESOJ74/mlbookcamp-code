@@ -1,10 +1,8 @@
-
 ## 8.12 Using the model
 
+<a href="https://www.youtube.com/watch?v=cM1WHKae1wo"><img src="images/thumbnail-8-12.jpg"></a>
 
-COMING SOON 
-
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592327)
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-8-neural-networks-and-deep-learning-250592316)
 
 
 ## Notes
