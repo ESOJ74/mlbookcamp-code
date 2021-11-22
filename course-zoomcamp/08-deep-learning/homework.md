@@ -81,6 +81,7 @@ ImageDataGenerator(rescale=1./255)
 * We don't need to do any additional pre-processing for the images.
 * When reading the data from train/val directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
 * Use `batch_size=20`
+* Use `shuffle=True` for both training and validaition 
 
 For training use `.fit()` with the following params:
 
@@ -93,6 +94,10 @@ model.fit(
     validation_steps=50
 )
 ```
+
+Note `validation_steps=50` - this parameter says "run only 50 steps on the validation data for evaluating the results". 
+This way we iterate a bit faster, but don't use the entire validation dataset.
+That's why it's important to shuffle the validation dataset as well. 
 
 ### Question 3
 
@@ -127,7 +132,7 @@ What is the mean of validation loss for the model trained with augmentations?
 
 ### Question 6
 
-What's the average of validation accuracy for the last 5 epochs (from 5 to 10)
+What's the average of validation accuracy for the last 5 epochs (from 6 to 10)
 for the model trained with augmentations?
 
 
