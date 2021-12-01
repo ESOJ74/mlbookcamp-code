@@ -3,7 +3,7 @@
 We'll deploy the clothes classification model we trained 
 previously using Kubernetes and TensorFlow Serving
 
-## 10.1 Overview 
+## 10.1 Overview
 
 * What we'll cover this week
 * Two-tier architecture
@@ -18,6 +18,8 @@ previously using Kubernetes and TensorFlow Serving
 
 * Converting the notebook to a Python script
 * Wrapping the script into a Flask app
+* Creating the virtual env with Pipenv
+* Getting rid of the tensorflow dependency
 
 ## 10.4 Running everything locally with Docker-compose
 
@@ -32,6 +34,7 @@ previously using Kubernetes and TensorFlow Serving
 
 ## 10.6 Deploying a simple service to Kubernetes
 
+* Create a simple ping application in Flask
 * Installing kubectl
 * Setting up a local Kubernetes cluster with Kind
 * Creating a deployment
@@ -47,7 +50,6 @@ previously using Kubernetes and TensorFlow Serving
 
 * Creating a EKS cluster on AWS
 * Publishing the image to ECR
-* Configuring kubectl
 
 ## 10.9 Summary
 
@@ -60,6 +62,9 @@ previously using Kubernetes and TensorFlow Serving
 ## 10.10 Explore more
 
 * Other local Kuberneteses: minikube, k3d, k3s, microk8s, EKS Anywhere
+* [Rancher desktop](https://rancherdesktop.io/)
+* Docker desktop
+* [Lens](https://k8slens.dev/)
 * Many cloud providers have Kubernetes: GCP, Azure, Digital ocean and others. Look for "Managed Kubernetes" in your favourite search engine
 * Deploy the model from previous modules and from your project with Kubernetes
 * Learn about Kubernetes namespaces. Here we used the default namespace
