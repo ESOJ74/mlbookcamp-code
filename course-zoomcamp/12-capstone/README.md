@@ -82,7 +82,7 @@ To evaluate the projects, we'll use peer reviewing. This is a great opportunity 
 
 * To get points for your project, your need to evaluate 3 projects of your peers
 * You get 3 extra point for each evaluation
-* The link is for project evaluation is coming soon
+* Find the projects to review [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRsuXlTS_2rR-SxYo_cpnRTZneZ12CPd-L3jva02Lo50JrXjaOzeEF6hdME4y_y3sEjIhKzP43sC1Ci/pubhtml#)
 
 
 Function for computing the hash of your email:
@@ -120,12 +120,6 @@ The project will be evaluated using these criteria:
 * To submit the evaluations, use this form: https://forms.gle/tHksJjmshDnMM8N57
 * You will need to submit this form three times - one for each evaluated project
 * Deadline: 20 December (Monday), 17:00 CET. After that, the form will be closed.
-
-
-
-## Office Hours 
-
-We will add office hours links here
 
 
 ## Community notes
